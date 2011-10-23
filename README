@@ -1,0 +1,13 @@
+mikutterに正確な遡りふぁぼを！
+favnums.txtにふぁぼりたい数を半角で指定してください。
+初期設定は30です。
+このプラグインはふぁぼを過去のものから順番に飛ばします。
+
+また、ソースの中の以下も参考に。
+#Plugin.call(:mui_tab_regist, container, 'Call_Api_ToFav', MUI::Skin.get("etc.png"))
+#同梱のtarget_reverse.pngをskin/data
+#に置いた時は上をコメントアウトしてこちらをお使いください
+Plugin.call(:mui_tab_regist, container, 'Call_Api_ToFav', MUI::Skin.get("target_reverse.png"))
+
+
+連絡先:twitter:@cosmo__
